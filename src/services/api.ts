@@ -1,9 +1,10 @@
 import axios from 'axios';
 import { Contest } from '../types/contest';
 
+// API endpoints for contests
 
-const CODEFORCES_API = import.meta.env.VITE_CODEFORCES_API;
-const CODECHEF_API = import.meta.env.VITE_CODECHEF_API;
+const CODEFORCES_API = 'https://codeforces.com/api/contest.list';
+const CODECHEF_API = '/api/codechef/api/list/contests/all';
 const LEETCODE_API = '/api/leetcode/graphql';
 // YouTube API configuration
 const API_KEY = import.meta.env.VITE_YOUTUBE_API_KEY;
